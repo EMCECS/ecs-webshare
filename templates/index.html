@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}ECC Uploader{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>Test Drive our Elastic Cloud Storage</h1>
+    <p>Before you start make sure you <a href="https://portal.ecstestdrive.com/">sign up</a> and generated your S3 access and secret keys.</p>
+</div>
+
+{{ wtf.quick_form(form) }}
+
+{% endblock %}

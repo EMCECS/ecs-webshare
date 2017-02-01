@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}ECS Uploader - Uploaded{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>Upload Complete</h1>
+    <p>Share your file for {{ expire_at }} seconds using this url: <a href="{{ sign_url }}">{{ sign_url }}</a></p>
+</div>
+{% endblock %}

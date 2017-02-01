@@ -1,0 +1,5 @@
+Flask==0.12
+Flask-Bootstrap==3.3.7.1
+Flask-WTF==0.14.2
+boto==2.45.0
+pyOpenSSL==16.2.0

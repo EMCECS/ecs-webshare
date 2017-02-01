@@ -1,0 +1,33 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}ECS Uploader Sample{% endblock %}
+
+{% block navbar %}
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-taret=".navbar-collapse">
+             <span class="sr-only">Toogle navigation</span>       
+             <span class="icon-bar"></span>      
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">ECS Uploader</a>
+        </div>
+        <div clas="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="https://portal.ecstestdrive.com/">Try ECS</a></li>
+                <li><a href="https://www.emc.com/en-us/storage/ecs/index.htm">About</a></li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+{% endblock %} 
+
+{% block content %}
+<div class="container">
+    {% block page_content %}{% endblock %}
+</div>
+{% endblock %}
