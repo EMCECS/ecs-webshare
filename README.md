@@ -2,7 +2,7 @@
 
 ## Introduction
 
-DellEMC Elastic Cloud Storage (ECS) is a software-defined, cloud-scale, object storage platform that combines the cost advantages of commodity infrastructure with comprehensive protocol support for unstructured (Object and File) workloads.
+DellEMC ECS is a software-defined, cloud-scale, object storage platform that combines the cost advantages of commodity infrastructure with comprehensive protocol support for unstructured (Object and File) workloads.
 
 ECS supports several Object Storage APIs (Amazon S3, OpenStack Swift, Atmos, CAS), but the Amazon S3 API is by the far the most popular.
 
